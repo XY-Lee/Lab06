@@ -105,6 +105,7 @@ int main() {
       case S0 : // first status
         cout << "press enter to morse..." << endl ;
         getchar() ; // in stdio.h, when you press enter, it will get a char 
+        dark_start_t = time(NULL) ; // initial dark start time
         nowStat = S1 ; // change status to S1
         break ;
         
