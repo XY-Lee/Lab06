@@ -120,7 +120,7 @@ int main() {
           } // if
         } // if
         else if ( dark_end_t - dark_start_t > 3 && !getChared ) { // when dark is coming and dark time is more than 3 second and the signal have not changed to char
-          // call signalToChar and add to out
+          out += signalToChar( temp ) ; // call signalToChar and add to out
           // initial temp
           // initial getChared
         } // else if
