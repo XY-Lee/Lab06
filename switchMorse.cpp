@@ -145,7 +145,7 @@ int main() {
       case S3 : // when dark time is more than 10 second
         // print out
         // initial out
-        // change status to S1
+        // change status to S0
         // initial dark start time
         // initial dark end time
         break ;
